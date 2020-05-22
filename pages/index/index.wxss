@@ -1,0 +1,71 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.pur_btn_out{
+  background-color: cornflowerblue;
+}
+
+.pur_btn{
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.pur_btn_top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pur_check{
+  font-family: cursive;
+}
+
+.feedback{
+  font-style: inherit;
+  color: dodgerblue;
+  text-decoration-line: underline;
+}
+
+.out_out{
+  margin:0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; 
+  justify-content: space-between;
+}
+
+.out_out_out{
+  position:fixed;   /*绝对定位*/
+  bottom:0;
+  box-sizing: border-box;
+  border-top: 1px solid;
+  width: 100%;
+  background-color: snow;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: cursive;
+  font-size: 25px;
+}

@@ -1,0 +1,38 @@
+<!--pages/new_page/new.wxml-->
+<form style="margin:0 10px" bindsubmit="onSubmit">
+  <text style="font-size:25px">身份信息</text>
+  <text>\n</text>
+  <view class="user_box">
+    <view>*姓名</view>
+    <input name="username" confirm-type="next" text placeholder="请填写姓名" />
+  </view>
+  <text>\n</text>
+
+
+
+  <view class="user_box">
+    <view>*证件类型</view>
+    <picker name="id-type" mode='selector' range='{{selectorItems}}' bindchange='selectorChange' >
+      <view class="id_picker">
+        <view>{{selector}}</view>
+        <view style="color:dodgerblue">选择</view>
+      </view>
+    </picker>
+  </view>
+
+
+  <text>\n</text>
+  <view class="user_box">
+    <view>*证件号码</view>
+    <input name="id" text placeholder="清楚输入你的证件号码" />
+  </view>
+  <text>\n</text>
+  <text style="font-size:25px">选择购买方式</text>
+  <text>\n</text>
+  <text>......</text>
+  <view class="sub_btn_out">
+    <button class="sub_btn" form-type="submit">提交</button>
+  </view>
+
+</form>
+

@@ -1,0 +1,7 @@
+<!--pages/input/input.wxml-->
+
+<checkbox-group>
+  <checkbox />李恒
+  <checkbox />李
+  <checkbox />恒
+</checkbox-group>

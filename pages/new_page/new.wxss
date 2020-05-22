@@ -1,0 +1,23 @@
+/* pages/new_page/new.wxss */
+
+.id_picker{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.user_box{
+  box-sizing: border-box;
+  border-bottom-style: groove;
+}
+
+.sub_btn_out{
+  margin:0 10px;
+  background-color: dodgerblue;
+  align-items: stretch;
+}
+
+.sub_btn{
+  background-color: dodgerblue;
+  color: snow;
+}

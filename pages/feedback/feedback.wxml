@@ -1,0 +1,20 @@
+<!--pages/feedback/feedback.wxml-->
+<map latitude='23.138904' longitude='113.351997'></map>
+<view>
+  <progress duration='60' percent='100' active/>
+</view>
+<text>\n\n\n\n\n</text>
+
+<view class="align_items">
+  <text>123 123</text>
+  <text>This is just an example</text>
+</view>
+
+
+<text>\n</text>
+<view class="justify_content">
+  <text>123 123</text>
+  <text>This is just an example</text>
+</view>
+
+<slider min="15" max="100" show-value></slider>
